@@ -1,0 +1,21 @@
+.Contact-td {
+    text-align: left;
+    padding: 15px;
+    color: blue;
+    border: 1px solid;
+    width: 220px;
+    white-space: unset;
+}
+
+
+.Contact-button{
+    background: rgb(223, 231, 228); 
+    color: black;
+    font-size: 20px;
+  }
+
+  .Contact-button:hover{
+    background: rgb(3, 1, 36); 
+    color: white;
+    font-size: 20px;
+  }
