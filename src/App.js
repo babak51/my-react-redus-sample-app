@@ -3,9 +3,6 @@ import './App.css';
 import { ReactReduxContext } from "react-redux";
 import Contact from './Contact';
 
-
-
-
 class App extends Component {
   onClickHandler(ev){
     console.log(ev.target.id);
