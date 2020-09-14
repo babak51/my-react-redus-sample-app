@@ -4,12 +4,13 @@ import { ReactReduxContext } from "react-redux";
 import Contact from './Contact';
 
 class App extends Component {
-  onClickHandler(ev){
-    console.log(ev.target.id);
-    return null;
+
+  onClickHandler(contactID){
+    console.log("---> delete contact with id = ", contactID);
   }
+
   render() {
-    
+
     return (
       <ReactReduxContext.Consumer>
         
@@ -19,7 +20,7 @@ class App extends Component {
                   <tbody>
                     <Contact 
                          contact={c} 
-                         deleteThisContact={this.onClickHandler}
+                         deleteContact={this.onClickHandler}
                          />  
                   </tbody>
                 </table>)}
