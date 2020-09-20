@@ -5,7 +5,7 @@ import { /* STORE, UPDATE, */ DELETE } from "./modelActionTypes";
 
 export const deleteContact = (contact) => ({
     type: DELETE,
-    dataTppe: CONTACTS,
+    dataType: CONTACTS,
     payload: contact.id
 })
 

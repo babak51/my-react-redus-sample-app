@@ -4,6 +4,7 @@ import { initialData } from  "./initialData";
 export default function(storeData, action) {
     switch( action.type ) {
         case DELETE:
+            console.log("--- inside reducer, the DELETE case ---");
             return {
                 ...storeData,
                 [action.dataType]: storeData[action.dataType]
