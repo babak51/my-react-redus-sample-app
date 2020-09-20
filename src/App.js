@@ -19,7 +19,7 @@ const connectFunction = connect(mapStateToProps, mapDispatchToProps);
 
 class App extends Component {
   render() {
-    console.log("[App.js] >>>>---> props:",this.props);
+    console.log("[App.js] >>>---> props:",this.props);
     return (
       <ReactReduxContext.Consumer>
           {({store}) => store.getState().contacts.map((c,i)=> 

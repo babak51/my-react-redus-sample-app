@@ -3,7 +3,7 @@ import './Contact.css';
 import { FaTrash } from 'react-icons/fa';
 export default class Contact extends Component {
     render() {
-      console.log("[Contact.js] >>>>---> props:",this.props);
+      console.log("[Contact.js] >>>---> props:",this.props);
       return <tr>
                  <td className="Contact-td" style={{width: "36px"}}>{this.props.contact.id}</td>
                  <td className="Contact-td" style={{width: "260"}}>{this.props.contact.name}</td>
